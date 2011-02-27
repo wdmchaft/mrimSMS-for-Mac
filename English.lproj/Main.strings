@@ -1,0 +1,20 @@
+/* 
+   Main.strings
+   mrimSMS
+
+   Created by Алексеев Влад on 30.12.10.
+   Copyright 2010 beefon software. All rights reserved.
+ */
+
+"recentColumn" = "Recent numbers";
+"numberOfMessages" = "Messages: %d";
+
+"connectionError" = "Connection error";
+"connectionErrorDescription" = "Unable to connect to Mail.ru servers. Please check your Internet connection.\n(%@)";
+
+"connectionFail" = "Login error";
+"connectionFailDescription" = "Incorrent email or password.";
+
+"disconnected" = "Disconected";
+"reconnect" = "Reconnect";
+"disconnectedDescription" = "You was disconnected because of parallel connection under your account.";

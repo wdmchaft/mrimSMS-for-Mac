@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0165521A100CAD0700D41FD1 /* EMKeychainProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01655216100CAD0700D41FD1 /* EMKeychainProxy.m */; };
+		0165521B100CAD0700D41FD1 /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 01655219100CAD0700D41FD1 /* EMKeychainItem.m */; };
+		01655265100CB15700D41FD1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01655264100CB15700D41FD1 /* Security.framework */; };
+		0174D4E1100DAF45002CD384 /* OSUPreferences.png in Resources */ = {isa = PBXBuildFile; fileRef = 0174D4E0100DAF45002CD384 /* OSUPreferences.png */; };
+		77C8280E06725ACE000B614F /* mrimSMS_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* mrimSMS_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E91DD1F612CD46CC00A4A41F /* validatereceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = E91DD1F512CD46CC00A4A41F /* validatereceipt.m */; };
+		E91DD20612CD470E00A4A41F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91DD20512CD470E00A4A41F /* IOKit.framework */; };
+		E92EF47C0FF3FFFA006DF246 /* mrimSMSAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EF47B0FF3FFFA006DF246 /* mrimSMSAppController.m */; };
+		E92EF49B0FF4013F006DF246 /* historyController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92EF49A0FF4013F006DF246 /* historyController.m */; };
+		E936330210C8E7120099E57D /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E93632FE10C8E7120099E57D /* AsyncSocket.m */; };
+		E936330310C8E7120099E57D /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E936330010C8E7120099E57D /* AsyncUdpSocket.m */; };
+		E936332E10C8EAB20099E57D /* mrimProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E936332D10C8EAB20099E57D /* mrimProtocol.m */; };
+		E973E04B1007B425000F7A95 /* unreadmessageNotification.png in Resources */ = {isa = PBXBuildFile; fileRef = E973E04A1007B425000F7A95 /* unreadmessageNotification.png */; };
+		E973E0601007BDE9000F7A95 /* newMessage.aiff in Resources */ = {isa = PBXBuildFile; fileRef = E973E05F1007BDE9000F7A95 /* newMessage.aiff */; };
+		E973E0721007C4C8000F7A95 /* mrimSMS.icns in Resources */ = {isa = PBXBuildFile; fileRef = E973E0711007C4C8000F7A95 /* mrimSMS.icns */; };
+		E973E0751007C55F000F7A95 /* keys.png in Resources */ = {isa = PBXBuildFile; fileRef = E973E0741007C55F000F7A95 /* keys.png */; };
+		E973E0981007E064000F7A95 /* InMailboxUnread.png in Resources */ = {isa = PBXBuildFile; fileRef = E973E0971007E064000F7A95 /* InMailboxUnread.png */; };
+		E973E09D1007E131000F7A95 /* badge.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E973E09C1007E131000F7A95 /* badge.tiff */; };
+		E98ABD28100885A900826E87 /* mrim12.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = E98ABD27100885A900826E87 /* mrim12.xcmappingmodel */; };
+		E98ABDFB10089DCF00826E87 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = E98ABDFA10089DCF00826E87 /* delete.png */; };
+		E98FFB350FF69E450002B72B /* mainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98FFB340FF69E450002B72B /* mainController.m */; };
+		E98FFBC00FF6A1590002B72B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98FFBBF0FF6A1590002B72B /* AddressBook.framework */; };
+		E98FFC480FF6AB560002B72B /* smsSent.aiff in Resources */ = {isa = PBXBuildFile; fileRef = E98FFC470FF6AB560002B72B /* smsSent.aiff */; };
+		E992F45512CD17EC003E7A0F /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = E992F45412CD17EC003E7A0F /* Main.strings */; };
+		E997D0CF0FBC199500BA13FA /* loginCredentials.png in Resources */ = {isa = PBXBuildFile; fileRef = E997D0CE0FBC199500BA13FA /* loginCredentials.png */; };
+		E9C05D1F12F0B19400916E23 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9C05D1E12F0B19400916E23 /* MainMenu.xib */; };
+		E9CDA5300FF3E5EC0033F9C2 /* mrim.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9CDA52F0FF3E5EC0033F9C2 /* mrim.xcdatamodeld */; };
+		E9CDA5980FF3EC340033F9C2 /* InMailbox.png in Resources */ = {isa = PBXBuildFile; fileRef = E9CDA5970FF3EC340033F9C2 /* InMailbox.png */; };
+		E9CDA59A0FF3EC540033F9C2 /* SentMailbox.png in Resources */ = {isa = PBXBuildFile; fileRef = E9CDA5990FF3EC540033F9C2 /* SentMailbox.png */; };
+		E9CDA5A30FF3F0710033F9C2 /* selection.png in Resources */ = {isa = PBXBuildFile; fileRef = E9CDA5A20FF3F0710033F9C2 /* selection.png */; };
+		E9E2F0A10FF4AF8300AA11A3 /* mrimModelManagedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2F0A00FF4AF8300AA11A3 /* mrimModelManagedClass.m */; };
+		E9E2F0AD0FF4B63B00AA11A3 /* History.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E9E2F0AC0FF4B63B00AA11A3 /* History.tiff */; };
+		E9E2F0D60FF5425200AA11A3 /* toolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2F0D50FF5425200AA11A3 /* toolbarController.m */; };
+		E9E2F2510FF55E4F00AA11A3 /* URLController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E2F2500FF55E4F00AA11A3 /* URLController.m */; };
+		E9E8875012E1C9340003B0B7 /* BFWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E8874F12E1C9340003B0B7 /* BFWindow.m */; };
+		E9E93B0010A74FA600DAC66C /* 32-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E93AFF10A74FA600DAC66C /* 32-iphone.png */; };
+		E9EA00B50FBB550500E5AEBE /* sms_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00B40FBB550500E5AEBE /* sms_bottom.png */; };
+		E9EA00D20FBC011C00E5AEBE /* redirect.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00CF0FBC011C00E5AEBE /* redirect.png */; };
+		E9EA00D30FBC011C00E5AEBE /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00D00FBC011C00E5AEBE /* new.png */; };
+		E9EA00D40FBC011C00E5AEBE /* send.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00D10FBC011C00E5AEBE /* send.tiff */; };
+		E9EA00D90FBC017600E5AEBE /* greenlight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00D70FBC017600E5AEBE /* greenlight.tiff */; };
+		E9EA00DA0FBC017600E5AEBE /* redlight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00D80FBC017600E5AEBE /* redlight.tiff */; };
+		E9EA00DC0FBC01B800E5AEBE /* inbox.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00DB0FBC01B800E5AEBE /* inbox.tiff */; };
+		E9EA00E30FBC092C00E5AEBE /* msgfieldright.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00E00FBC092C00E5AEBE /* msgfieldright.png */; };
+		E9EA00E40FBC092C00E5AEBE /* msgfieldleft.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00E10FBC092C00E5AEBE /* msgfieldleft.png */; };
+		E9EA00E50FBC092C00E5AEBE /* msgfieldcenter.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00E20FBC092C00E5AEBE /* msgfieldcenter.png */; };
+		E9EA00ED0FBC0DCE00E5AEBE /* messagetext.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00EC0FBC0DCE00E5AEBE /* messagetext.png */; };
+		E9EA00F00FBC161700E5AEBE /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EA00EF0FBC161700E5AEBE /* phone.png */; };
+		E9EDF31C101F0B7800BDE0E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EDF31B101F0B7800BDE0E9 /* SystemConfiguration.framework */; };
+		E9EDF376101F20B200BDE0E9 /* Network.png in Resources */ = {isa = PBXBuildFile; fileRef = E9EDF375101F20B200BDE0E9 /* Network.png */; };
+		E9EDF3C5101F240400BDE0E9 /* MRIMHistoryArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EDF3C4101F240400BDE0E9 /* MRIMHistoryArrayController.m */; };
+		E9F773D40FB9C7FA00CEA531 /* sms_top.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F773D30FB9C7FA00CEA531 /* sms_top.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E960935F100BB0B4008414D6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01655216100CAD0700D41FD1 /* EMKeychainProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainProxy.m; sourceTree = "<group>"; };
+		01655217100CAD0700D41FD1 /* EMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainItem.h; sourceTree = "<group>"; };
+		01655218100CAD0700D41FD1 /* EMKeychainProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainProxy.h; sourceTree = "<group>"; };
+		01655219100CAD0700D41FD1 /* EMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainItem.m; sourceTree = "<group>"; };
+		01655264100CB15700D41FD1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		0174D4E0100DAF45002CD384 /* OSUPreferences.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OSUPreferences.png; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* mrimSMS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrimSMS_Prefix.pch; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* mrimSMS_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrimSMS_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* mrimSMS_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrimSMS_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* mrimSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mrimSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90C79EA131A501700621AAF /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		E91DD1F412CD46CC00A4A41F /* validatereceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validatereceipt.h; sourceTree = "<group>"; };
+		E91DD1F512CD46CC00A4A41F /* validatereceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = validatereceipt.m; sourceTree = "<group>"; };
+		E91DD20512CD470E00A4A41F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E9282B701013C2D5003331D4 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E92EF47A0FF3FFFA006DF246 /* mrimSMSAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrimSMSAppController.h; sourceTree = "<group>"; };
+		E92EF47B0FF3FFFA006DF246 /* mrimSMSAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrimSMSAppController.m; sourceTree = "<group>"; };
+		E92EF4990FF4013F006DF246 /* historyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = historyController.h; sourceTree = "<group>"; };
+		E92EF49A0FF4013F006DF246 /* historyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = historyController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		E93632FA10C8E7120099E57D /* MMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMP.h; sourceTree = "<group>"; };
+		E93632FD10C8E7120099E57D /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		E93632FE10C8E7120099E57D /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		E93632FF10C8E7120099E57D /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		E936330010C8E7120099E57D /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		E936332C10C8EAB20099E57D /* mrimProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrimProtocol.h; sourceTree = "<group>"; };
+		E936332D10C8EAB20099E57D /* mrimProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrimProtocol.m; sourceTree = "<group>"; };
+		E973E04A1007B425000F7A95 /* unreadmessageNotification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unreadmessageNotification.png; sourceTree = "<group>"; };
+		E973E05F1007BDE9000F7A95 /* newMessage.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = newMessage.aiff; sourceTree = "<group>"; };
+		E973E0711007C4C8000F7A95 /* mrimSMS.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mrimSMS.icns; sourceTree = "<group>"; };
+		E973E0741007C55F000F7A95 /* keys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keys.png; sourceTree = "<group>"; };
+		E973E0971007E064000F7A95 /* InMailboxUnread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InMailboxUnread.png; sourceTree = "<group>"; };
+		E973E09C1007E131000F7A95 /* badge.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = badge.tiff; sourceTree = "<group>"; };
+		E98ABD27100885A900826E87 /* mrim12.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = mrim12.xcmappingmodel; sourceTree = "<group>"; };
+		E98ABDFA10089DCF00826E87 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		E98FFB330FF69E450002B72B /* mainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainController.h; sourceTree = "<group>"; };
+		E98FFB340FF69E450002B72B /* mainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainController.m; sourceTree = "<group>"; };
+		E98FFBBF0FF6A1590002B72B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		E98FFC470FF6AB560002B72B /* smsSent.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = smsSent.aiff; sourceTree = "<group>"; };
+		E992F44F12CD1484003E7A0F /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Main.strings; sourceTree = "<group>"; };
+		E992F45612CD17EF003E7A0F /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		E997D0CE0FBC199500BA13FA /* loginCredentials.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginCredentials.png; sourceTree = "<group>"; };
+		E9C05D2012F0B19900916E23 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E9CDA52B0FF3E5E00033F9C2 /* mrim.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = mrim.xcdatamodel; sourceTree = "<group>"; };
+		E9CDA5310FF3E5EC0033F9C2 /* mrim 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "mrim 2.xcdatamodel"; sourceTree = "<group>"; };
+		E9CDA5970FF3EC340033F9C2 /* InMailbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InMailbox.png; sourceTree = "<group>"; };
+		E9CDA5990FF3EC540033F9C2 /* SentMailbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SentMailbox.png; sourceTree = "<group>"; };
+		E9CDA5A20FF3F0710033F9C2 /* selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selection.png; sourceTree = "<group>"; };
+		E9E2F09F0FF4AF8300AA11A3 /* mrimModelManagedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mrimModelManagedClass.h; sourceTree = "<group>"; };
+		E9E2F0A00FF4AF8300AA11A3 /* mrimModelManagedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mrimModelManagedClass.m; sourceTree = "<group>"; };
+		E9E2F0AC0FF4B63B00AA11A3 /* History.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = History.tiff; sourceTree = "<group>"; };
+		E9E2F0D40FF5425200AA11A3 /* toolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolbarController.h; sourceTree = "<group>"; };
+		E9E2F0D50FF5425200AA11A3 /* toolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = toolbarController.m; sourceTree = "<group>"; };
+		E9E2F24F0FF55E4F00AA11A3 /* URLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLController.h; sourceTree = "<group>"; };
+		E9E2F2500FF55E4F00AA11A3 /* URLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLController.m; sourceTree = "<group>"; };
+		E9E8874E12E1C9340003B0B7 /* BFWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWindow.h; sourceTree = "<group>"; };
+		E9E8874F12E1C9340003B0B7 /* BFWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFWindow.m; sourceTree = "<group>"; };
+		E9E93AFF10A74FA600DAC66C /* 32-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "32-iphone.png"; sourceTree = "<group>"; };
+		E9EA00B40FBB550500E5AEBE /* sms_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms_bottom.png; sourceTree = "<group>"; };
+		E9EA00CF0FBC011C00E5AEBE /* redirect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redirect.png; sourceTree = "<group>"; };
+		E9EA00D00FBC011C00E5AEBE /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		E9EA00D10FBC011C00E5AEBE /* send.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = send.tiff; sourceTree = "<group>"; };
+		E9EA00D70FBC017600E5AEBE /* greenlight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = greenlight.tiff; sourceTree = "<group>"; };
+		E9EA00D80FBC017600E5AEBE /* redlight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = redlight.tiff; sourceTree = "<group>"; };
+		E9EA00DB0FBC01B800E5AEBE /* inbox.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = inbox.tiff; sourceTree = "<group>"; };
+		E9EA00E00FBC092C00E5AEBE /* msgfieldright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msgfieldright.png; sourceTree = "<group>"; };
+		E9EA00E10FBC092C00E5AEBE /* msgfieldleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msgfieldleft.png; sourceTree = "<group>"; };
+		E9EA00E20FBC092C00E5AEBE /* msgfieldcenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msgfieldcenter.png; sourceTree = "<group>"; };
+		E9EA00EC0FBC0DCE00E5AEBE /* messagetext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messagetext.png; sourceTree = "<group>"; };
+		E9EA00EF0FBC161700E5AEBE /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		E9EDF31B101F0B7800BDE0E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		E9EDF375101F20B200BDE0E9 /* Network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Network.png; sourceTree = "<group>"; };
+		E9EDF3C3101F240400BDE0E9 /* MRIMHistoryArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRIMHistoryArrayController.h; sourceTree = "<group>"; };
+		E9EDF3C4101F240400BDE0E9 /* MRIMHistoryArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRIMHistoryArrayController.m; sourceTree = "<group>"; };
+		E9F773D30FB9C7FA00CEA531 /* sms_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sms_top.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E98FFBC00FF6A1590002B72B /* AddressBook.framework in Frameworks */,
+				01655265100CB15700D41FD1 /* Security.framework in Frameworks */,
+				E9EDF31C101F0B7800BDE0E9 /* SystemConfiguration.framework in Frameworks */,
+				E91DD20612CD470E00A4A41F /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01655214100CACFD00D41FD1 /* EMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				01655217100CAD0700D41FD1 /* EMKeychainItem.h */,
+				01655216100CAD0700D41FD1 /* EMKeychainProxy.m */,
+				01655218100CAD0700D41FD1 /* EMKeychainProxy.h */,
+				01655219100CAD0700D41FD1 /* EMKeychainItem.m */,
+			);
+			name = EMKeychain;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01655214100CACFD00D41FD1 /* EMKeychain */,
+				E936330510C8E71A0099E57D /* mrim */,
+				E91DD1F412CD46CC00A4A41F /* validatereceipt.h */,
+				E91DD1F512CD46CC00A4A41F /* validatereceipt.m */,
+				E90C79EA131A501700621AAF /* CGSPrivate.h */,
+				77C8280B06725ACE000B614F /* mrimSMS_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* mrimSMS_AppDelegate.m */,
+				E92EF47A0FF3FFFA006DF246 /* mrimSMSAppController.h */,
+				E92EF47B0FF3FFFA006DF246 /* mrimSMSAppController.m */,
+				E98FFB330FF69E450002B72B /* mainController.h */,
+				E98FFB340FF69E450002B72B /* mainController.m */,
+				E92EF4990FF4013F006DF246 /* historyController.h */,
+				E92EF49A0FF4013F006DF246 /* historyController.m */,
+				E9EDF3C3101F240400BDE0E9 /* MRIMHistoryArrayController.h */,
+				E9EDF3C4101F240400BDE0E9 /* MRIMHistoryArrayController.m */,
+				E9E2F09F0FF4AF8300AA11A3 /* mrimModelManagedClass.h */,
+				E9E2F0A00FF4AF8300AA11A3 /* mrimModelManagedClass.m */,
+				E9E2F0D40FF5425200AA11A3 /* toolbarController.h */,
+				E9E2F0D50FF5425200AA11A3 /* toolbarController.m */,
+				E9E2F24F0FF55E4F00AA11A3 /* URLController.h */,
+				E9E2F2500FF55E4F00AA11A3 /* URLController.m */,
+				E9E8874E12E1C9340003B0B7 /* BFWindow.h */,
+				E9E8874F12E1C9340003B0B7 /* BFWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* mrimSMS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* mrimSMS */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = mrimSMS;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* mrimSMS_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E98FFC470FF6AB560002B72B /* smsSent.aiff */,
+				E973E05F1007BDE9000F7A95 /* newMessage.aiff */,
+				E9EA00C30FBC00B200E5AEBE /* Graphics */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				E9C05D1E12F0B19400916E23 /* MainMenu.xib */,
+				E992F45412CD17EC003E7A0F /* Main.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91DD20512CD470E00A4A41F /* IOKit.framework */,
+				E9EDF31B101F0B7800BDE0E9 /* SystemConfiguration.framework */,
+				01655264100CB15700D41FD1 /* Security.framework */,
+				E98FFBBF0FF6A1590002B72B /* AddressBook.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9CDA52F0FF3E5EC0033F9C2 /* mrim.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E936330510C8E71A0099E57D /* mrim */ = {
+			isa = PBXGroup;
+			children = (
+				E936332C10C8EAB20099E57D /* mrimProtocol.h */,
+				E936332D10C8EAB20099E57D /* mrimProtocol.m */,
+				E93632FA10C8E7120099E57D /* MMP.h */,
+				E93632FD10C8E7120099E57D /* AsyncSocket.h */,
+				E93632FE10C8E7120099E57D /* AsyncSocket.m */,
+				E93632FF10C8E7120099E57D /* AsyncUdpSocket.h */,
+				E936330010C8E7120099E57D /* AsyncUdpSocket.m */,
+			);
+			name = mrim;
+			sourceTree = "<group>";
+		};
+		E9EA00C30FBC00B200E5AEBE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				E9E93AFF10A74FA600DAC66C /* 32-iphone.png */,
+				E9EDF375101F20B200BDE0E9 /* Network.png */,
+				0174D4E0100DAF45002CD384 /* OSUPreferences.png */,
+				E973E0711007C4C8000F7A95 /* mrimSMS.icns */,
+				E973E04A1007B425000F7A95 /* unreadmessageNotification.png */,
+				E9E2F0AC0FF4B63B00AA11A3 /* History.tiff */,
+				E9CDA5A20FF3F0710033F9C2 /* selection.png */,
+				E9CDA5970FF3EC340033F9C2 /* InMailbox.png */,
+				E973E0971007E064000F7A95 /* InMailboxUnread.png */,
+				E9CDA5990FF3EC540033F9C2 /* SentMailbox.png */,
+				E9EA00EC0FBC0DCE00E5AEBE /* messagetext.png */,
+				E9EA00E00FBC092C00E5AEBE /* msgfieldright.png */,
+				E9EA00E10FBC092C00E5AEBE /* msgfieldleft.png */,
+				E9EA00E20FBC092C00E5AEBE /* msgfieldcenter.png */,
+				E9EA00DB0FBC01B800E5AEBE /* inbox.tiff */,
+				E9EA00D70FBC017600E5AEBE /* greenlight.tiff */,
+				E9EA00D80FBC017600E5AEBE /* redlight.tiff */,
+				E997D0CE0FBC199500BA13FA /* loginCredentials.png */,
+				E973E09C1007E131000F7A95 /* badge.tiff */,
+				E9EA00CF0FBC011C00E5AEBE /* redirect.png */,
+				E9EA00D00FBC011C00E5AEBE /* new.png */,
+				E9EA00D10FBC011C00E5AEBE /* send.tiff */,
+				E9EA00EF0FBC161700E5AEBE /* phone.png */,
+				E9EA00B40FBB550500E5AEBE /* sms_bottom.png */,
+				E98ABDFA10089DCF00826E87 /* delete.png */,
+				E9F773D30FB9C7FA00CEA531 /* sms_top.png */,
+				E973E0741007C55F000F7A95 /* keys.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* mrimSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "mrimSMS" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				E960935F100BB0B4008414D6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mrimSMS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = mrimSMS;
+			productReference = 8D1107320486CEB800E47090 /* mrimSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "mrimSMS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				ru,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* mrimSMS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* mrimSMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				E9C05D1F12F0B19400916E23 /* MainMenu.xib in Resources */,
+				E9F773D40FB9C7FA00CEA531 /* sms_top.png in Resources */,
+				E9EA00B50FBB550500E5AEBE /* sms_bottom.png in Resources */,
+				E9EA00D20FBC011C00E5AEBE /* redirect.png in Resources */,
+				E9EA00D30FBC011C00E5AEBE /* new.png in Resources */,
+				E9EA00D40FBC011C00E5AEBE /* send.tiff in Resources */,
+				E9EA00D90FBC017600E5AEBE /* greenlight.tiff in Resources */,
+				E9EA00DA0FBC017600E5AEBE /* redlight.tiff in Resources */,
+				E9EA00DC0FBC01B800E5AEBE /* inbox.tiff in Resources */,
+				E9EA00E30FBC092C00E5AEBE /* msgfieldright.png in Resources */,
+				E9EA00E40FBC092C00E5AEBE /* msgfieldleft.png in Resources */,
+				E9EA00E50FBC092C00E5AEBE /* msgfieldcenter.png in Resources */,
+				E9EA00ED0FBC0DCE00E5AEBE /* messagetext.png in Resources */,
+				E9EA00F00FBC161700E5AEBE /* phone.png in Resources */,
+				E997D0CF0FBC199500BA13FA /* loginCredentials.png in Resources */,
+				E9CDA5980FF3EC340033F9C2 /* InMailbox.png in Resources */,
+				E9CDA59A0FF3EC540033F9C2 /* SentMailbox.png in Resources */,
+				E9CDA5A30FF3F0710033F9C2 /* selection.png in Resources */,
+				E9E2F0AD0FF4B63B00AA11A3 /* History.tiff in Resources */,
+				E98FFC480FF6AB560002B72B /* smsSent.aiff in Resources */,
+				E973E04B1007B425000F7A95 /* unreadmessageNotification.png in Resources */,
+				E973E0601007BDE9000F7A95 /* newMessage.aiff in Resources */,
+				E973E0721007C4C8000F7A95 /* mrimSMS.icns in Resources */,
+				E973E0751007C55F000F7A95 /* keys.png in Resources */,
+				E973E0981007E064000F7A95 /* InMailboxUnread.png in Resources */,
+				E973E09D1007E131000F7A95 /* badge.tiff in Resources */,
+				E98ABDFB10089DCF00826E87 /* delete.png in Resources */,
+				0174D4E1100DAF45002CD384 /* OSUPreferences.png in Resources */,
+				E9EDF376101F20B200BDE0E9 /* Network.png in Resources */,
+				E9E93B0010A74FA600DAC66C /* 32-iphone.png in Resources */,
+				E992F45512CD17EC003E7A0F /* Main.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* mrimSMS_AppDelegate.m in Sources */,
+				E9CDA5300FF3E5EC0033F9C2 /* mrim.xcdatamodeld in Sources */,
+				E92EF47C0FF3FFFA006DF246 /* mrimSMSAppController.m in Sources */,
+				E92EF49B0FF4013F006DF246 /* historyController.m in Sources */,
+				E9E2F0A10FF4AF8300AA11A3 /* mrimModelManagedClass.m in Sources */,
+				E9E2F0D60FF5425200AA11A3 /* toolbarController.m in Sources */,
+				E9E2F2510FF55E4F00AA11A3 /* URLController.m in Sources */,
+				E98FFB350FF69E450002B72B /* mainController.m in Sources */,
+				E98ABD28100885A900826E87 /* mrim12.xcmappingmodel in Sources */,
+				0165521A100CAD0700D41FD1 /* EMKeychainProxy.m in Sources */,
+				0165521B100CAD0700D41FD1 /* EMKeychainItem.m in Sources */,
+				E9EDF3C5101F240400BDE0E9 /* MRIMHistoryArrayController.m in Sources */,
+				E936330210C8E7120099E57D /* AsyncSocket.m in Sources */,
+				E936330310C8E7120099E57D /* AsyncUdpSocket.m in Sources */,
+				E936332E10C8EAB20099E57D /* mrimProtocol.m in Sources */,
+				E91DD1F612CD46CC00A4A41F /* validatereceipt.m in Sources */,
+				E9E8875012E1C9340003B0B7 /* BFWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				E9282B701013C2D5003331D4 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E992F45412CD17EC003E7A0F /* Main.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E992F44F12CD1484003E7A0F /* English */,
+				E992F45612CD17EF003E7A0F /* ru */,
+			);
+			name = Main.strings;
+			sourceTree = "<group>";
+		};
+		E9C05D1E12F0B19400916E23 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F7446980DB6B7EA00F9684A /* English */,
+				E9C05D2012F0B19900916E23 /* ru */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Alekseev Vladislav";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mrimSMS_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = mrimSMS;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Alekseev Vladislav";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mrimSMS_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = mrimSMS;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "mrimSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "mrimSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9CDA52F0FF3E5EC0033F9C2 /* mrim.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9CDA52B0FF3E5E00033F9C2 /* mrim.xcdatamodel */,
+				E9CDA5310FF3E5EC0033F9C2 /* mrim 2.xcdatamodel */,
+				E98ABD27100885A900826E87 /* mrim12.xcmappingmodel */,
+			);
+			currentVersion = E9CDA5310FF3E5EC0033F9C2 /* mrim 2.xcdatamodel */;
+			path = mrim.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
